@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 98px;
+}
+
+header ul {
+  display: flex;
+  gap: 128px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  color: rgba(34, 34, 34, 1);
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: rgba(222, 46, 84, 1);
+}
+
+/* header .header-wrapper button {
+  width: 189px;
+  height: 47px;
+  border-radius: 8px;
+  border: 2px solid rgba(222, 46, 84, 1);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  letter-spacing: 2px;
+  background-color: #ffff;
+} */
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(./img/image\ 4\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  height: 533px;
+  color: white;
+}
+
+.left-content {
+  width: 500px;
+  height: 178.2px;
+  gap: 138px;
+}
+
+.left-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  margin-top: 138px;
+  margin-left: 170px;
+  margin-right: 770px;
+  margin-bottom: 217px;
+}
+
+/* .cta-button {
+  background-color: #fff;
+  color: ;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+} */
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #e53935;
+  background-color: #ffffff;
+  border: 2px solid #e53935;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e53935;
+  color: #ffffff;
+}
+.right-content img {
+  width: 423px;
+  height: 482.28px;
+  top: 148.72px;
+  left: 869px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+
+.box {
+  width: Hug (864px)px;
+  height: Hug (200px)px;
+  gap: 64px;
+  opacity: 0px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box-image1 {
+  width: 200px;
+  height: 200px;
+  gap: 0px;
+  border-radius: 24px 0px 0px 0px;
+  opacity: 0px;
+  text-align: left;
+}
+
+.h31 {
+  color: #333;
+  margin: 15px 0;
+  text-align: end;
+}
+
+.h32 {
+  color: #333;
+  margin: 15px 0;
+  text-align: end;
+}
+
+.p1 {
+  color: #666;
+  font-size: 14px;
+  text-align: end;
+}
+
+.p2 {
+  color: #666;
+  font-size: 14px;
+  text-align: left;
+}
+
+.box-image2 {
+  width: 200px;
+  height: 200px;
+  gap: 0px;
+  border-radius: 24px 0px 0px 0px;
+  opacity: 0px;
+  text-align: end;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 540px;
+  height: 331px;
+  top: 1685px;
+  left: 738px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #33d69f;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #2bc48a;
+}
+.footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 98px;
+}
+.footer ul {
+  display: flex;
+  gap: 128px;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  color: rgba(222, 46, 84, 1);
+}
